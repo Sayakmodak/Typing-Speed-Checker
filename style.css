@@ -8,12 +8,12 @@ body{
     justify-content: center;
     align-items: center;
     height: 100vh;
+    background-color: #afd9e3;
 }
 
 .container{
-    border: 1px solid black;
     width: 50%;
-    padding: 10px;
+    padding: 20px;
 }
 
 .quoteDisplay{
@@ -27,6 +27,27 @@ body{
     resize: none;
     outline: none;
     height: 100px;
+    margin: 20px 0px;
+}
+
+#btn{
+    display: block;
+    margin: 0 auto;
+    padding: 8px 50px;
+    font-size: 16px;
+    border-radius: 10px;
+    outline: none;
+    border: 1px solid black;
+}
+
+#para{
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#msg{
+    text-align: center;
+    margin: 15px;
 }
 
 .green{
